@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <span id="sdbar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <!-- The sidebar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="Index.html">Landing Page</a>
+            <a href="login.html">Login </a>
+            <a href="signup.html">Signup </a>
+            <a href="register_product.html">Product Registration </a>
+        </div>
+    </div>
+    
+    <header>
+        <a href="/"><img id="logo" src="/Images/TechHavenLogo.png"  alt="Technology Heaven Logo"/></a>
+        <h1>Welcome to <span>ElectroMarket</span> – Your Tech Superstore!</h1>
+    </header>
+    <h2>Our Products:</h2>
+    <ul>
+        <li><a href="#television">Televisions</a></li>
+        <li><a href="#laptop">Laptops</a></li>
+        <li><a href="#coming_soon">Tablets</a></li>
+        <li><a href="#mobile">Mobile Phones</a></li>
+        <li><a href="#coming_soon">Smart Watches</a></li>
+    </ul>
+    <br>
+    <h2>Product Description:</h2>
+    <table>
+        <thead>
+            <tr id="television">
+                <td><img src="/Images/Flat-TVs.jpg"></td>
+                <td id="imagename" colspan="5">Television</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><a href="https://en.wikipedia.org/wiki/Television">Television</a>, commonly known as TV, is an electronic device used for receiving and displaying broadcast signals, 
+                    typically consisting of audio and video content. Modern TVs come in various types, 
+                    including LED, OLED, and QLED, offering high-definition and smart features. Some of the main internal parts are listed on the side.</td>
+                <td><img src="/Images/TV_disp.jpg"></td>
+                <td><img src="/Images/TV_mothb.jpg"></td>
+                <td><img src="/Images/TV_chip.jpg"></td>
+                <td><img src="/Images/TV_powsup.png"></td>
+                <td><img src="/Images/TV_aud.png"></td>
+            </tr>
+            <tr>
+                <td>The display panel is the screen that produces images using technologies like LCD, LED, OLED, or QLED.</td>
+                <td>The motherboard or mainboard is the central circuit board that houses the processor, memory, and other essential components, coordinating the TV's functions.</td>
+                <td>The CPU processes instructions, controls tasks, and manages overall functionality, contributing to image rendering and smart features.</td>
+                <td>The PSU converts electrical power from an outlet into a form suitable for the TV, providing the necessary energy to operate.</td>
+                <td>The audio system includes speakers and components responsible for producing sound to accompany the video, providing a complete multimedia experience.</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr id="laptop">
+                <td><img src="/Images/Laptop.jpg"></td>
+                <td id="imagename" colspan="5">Laptop</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" ><a href="https://en.wikipedia.org/wiki/Laptop">Laptop</a> is a portable computer designed for mobility and convenience. 
+                    It typically includes a keyboard, display screen, and a built-in battery, 
+                    allowing users to work or play on the go. Some of their main internal parts are listed on the side.</td>
+                <td><img src="/Images/Intel_chip.png" ></td>
+                <td><img src="/Images/RAM.jpg" ></td>
+                <td><img src="/Images/SSD.png" ></td>
+                <td><img src="/Images/GPU.jpg" ></td>
+                <td><img src="/Images/lap_bat.jpg" ></td>
+            </tr>
+            <tr>
+                <td>The CPU is the brain of the laptop, executing instructions and handling computations necessary for various tasks.</td>
+                <td>RAM is volatile memory used for temporarily storing data that the CPU needs for quick access, contributing to smooth multitasking.</td>
+                <td>Storage devices, such as hard disk drives (HDD) or solid-state drives (SSD), store the laptop's operating system, applications, and user data.</td>
+                <td>The GPU is responsible for rendering graphics and enhancing the visual performance of the laptop, crucial for gaming and multimedia applications.</td>
+                <td>The battery provides power for the laptop when not connected to an external power source, enabling portability and uninterrupted usage.</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr id="mobile">
+                <td><img src="/Images/smartph.png"></td>
+                <td id="imagename" colspan="5">Smartphone</td>
+            </tr>
+        </thead>
+        <tbody style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <tr>
+                <td rowspan="2" ><a href="https://en.wikipedia.org/wiki/Smartphone" >Smartphone</a> is a handheld communication device with advanced features, 
+                    including calling, texting, internet browsing, and app support. It combines a mobile phone with computing capabilities,
+                    providing a versatile tool for communication and productivity. Some of their main internal parts are listed on the side.</td>
+                <td><img src="/Images/Sam_chip.jpg"></td>
+                <td><img src="/Images/Sams_pow.jpg"></td>
+                <td><img src="/Images/Tch_disp.jpg"></td>
+                <td><img src="/Images/Mob_cam.png" ></td>
+                <td><img src="/Images/mob_strg.png"></td>
+            </tr>
+            <tr>
+                <td>The SoC integrates the central processing unit (CPU), graphics processing unit (GPU), and other components, enabling the execution of tasks, running applications, and ensuring overall device performance.</td>
+                <td>A rechargeable battery supplies power to the smartphone, allowing for extended usage. The battery capacity determines the device's runtime, and advancements in battery technology enhance overall battery life.</td>
+                <td>The display screen serves as the primary interface, providing a visual platform for user interaction with apps, multimedia, and the operating system. Modern smartphones feature various display technologies like OLED and AMOLED for vibrant visuals.</td>
+                <td>Smartphones incorporate advanced camera systems, including front and rear cameras with high-resolution sensors and multiple lenses. These cameras capture photos, record videos, and support features like portrait mode and night mode.</td>
+                <td>Internal storage, usually in the form of flash memory, stores the smartphone's operating system, installed apps, and user data. It facilitates quick access to applications and ensures seamless performance.</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="coming_soon">
+        <h3>COMING SOON</h3>
+    </div>
+    <footer>
+        <span>Copyright &copy; Ask Lalit(22BCE3235) 2024</span>   
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>

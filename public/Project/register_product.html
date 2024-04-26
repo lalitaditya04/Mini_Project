@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Registration - Tech Heaven</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="/"><img src="/Images/TechHavenLogo.png" alt="Tech Heaven Logo"></a>
+            </div>
+        </div>
+    </header>
+    <main class="registration-form">
+        <div class="container">
+            <h1>Product Registration</h1>
+            <form id="registration-form" method="post" action="#" onsubmit="return validateRegistrationForm()">
+                <div class="personal-info">
+                    <h3>Personal Information</h3>
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="\(\d{3}\) \d{3}-\d{4}" placeholder="(000) 000-0000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State / Province:</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="zip">Postal / Zip Code:</label>
+                        <input type="text" id="zip" name="zip" required>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Product Information</h3>
+                    <div class="form-group">
+                        <label for="model-name">Model Name:</label>
+                        <input type="text" id="model-name" name="model-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="model-id">Model ID:</label>
+                        <input type="text" id="model-id" name="model-id" pattern="\d{8}" placeholder="12345678" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="purchased-from">Purchased From:</label>
+                        <select id="purchased-from" name="purchased-from" required>
+                            <option value="" disabled selected>Please Select</option>
+                            <option value="store">In-Store</option>
+                            <option value="online">Online</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="purchase-date">Purchase Date:</label>
+                        <input type="date" id="purchase-date" name="purchase-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bill">Upload Bill:</label>
+                        <input type="file" id="bill" name="bill" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Do you want us to send you product announcements and special offers?</label>
+                        <div class="radio-buttons">
+                            <br>
+                            <input type="radio" id="product-announcement-yes" name="product-announcement" value="yes" required>
+                            <label for="product-announcement-yes">Yes</label>
+                            <input type="radio" id="product-announcement-no" name="product-announcement" value="no">
+                            <label for="product-announcement-no">No</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button type="submit" class="btn">Register Product</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="copy-right">
+                <p>&copy; 2024 TechHeaven. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="register.js"></script>
+</body>
+</html>

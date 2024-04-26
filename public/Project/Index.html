@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Heaven</title>
+    <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container" id="home">
+            <span id="sdbar" style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;</span>
+            <!-- The sidebar -->
+            <div id="mySidenav" class="sidenav">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Signup</a>
+                <a href="register_product.html">Registration</a>
+                <a href="home.html">Store</a>
+                <a href="/">Review</a>
+                <a href="/">Quiz</a>
+            </div>
+            <div class="logo">
+                <a href="Index.html"><img src="/BCSE203E/Images/TechHavenLogo.png" alt="Tech Heaven Logo" /></a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Tech Heaven</h1>
+            <div class="hero-text-container">
+                <p>Your Tech Superstore!</p>
+            </div>
+            <a href="#products" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+    <section class="video-content">
+        <div class="container">
+            <h2>Have a Peek at UpComing Coolest Gadgets</h2>
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3au9HCoxnA?si=LJagw3HhRcuZboEB"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <div id="about_us"></div>
+    <section class="about" id="about_us">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/BCSE203E/Images/About_image.jpg" alt="About Image" />
+                </div>
+                <div class="about-text">
+                    <span>ABOUT US</span><br /><br />
+                    <span id="highlight">Your Ultimate Technology <br />Destination</span>
+                    <p>
+                        TechHeaven is an electronics store that provides the latest
+                        information and cutting-edge technology, all under one roof. Our
+                        mission is to make technology accessible and affordable to
+                        everyone, while creating a seamless shopping experience.
+                    </p>
+                </div>
+                <div class="why-choose">
+                    <h2>Why Choose TechHeaven?</h2>
+                    <p>
+                        At TechHeaven, we offer a range of high-quality electronic devices
+                        to fit every need and budget. Our products are guaranteed to be of
+                        the latest technology, and our knowledgeable staff ensures that
+                        you get the best customer service.
+                    </p>
+                    <ul>
+                        <li>
+                            <h3>01. Smart Home Devices</h3>
+                            <p>
+                                We offer a variety of smart home devices that make your life
+                                more convenient, more efficient, and more enjoyable.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>02. Personal Computer</h3>
+                            <p>
+                                Whether you’re a student, a professional, or a gamer, we’ve
+                                got the perfect computer for you.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>03. Mobile</h3>
+                            <p>
+                                Stay connected on-the-go with our range of mobile devices,
+                                designed to keep you productive and entertained, all day long.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>04. Latest Technology</h3>
+                            <p>
+                                Our products are always up-to-date with the latest technology,
+                                ensuring that you get the best possible experience.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="products"></div>
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="/BCSE203E/Images/Flat-TVs.jpg" alt="Television" style="height: 300px; width: 500px" />
+                <!-- Add this line -->
+                <h3>Television</h3>
+                <p>Price Range : &#8377;40000 - &#8377;200000</p>
+                <a href="home.html#television" class="know-more-btn">Know More</a>
+            </div>
+            <div class="product">
+                <img src="/BCSE203E/Images/Laptop.jpg" alt="Laptop" style="height: 300px; width: 500px" />
+                <!-- Add this line -->
+                <h3>Laptop</h3>
+                <p>Price Range : &#8377;25000 - &#8377;100000</p>
+                <a href="home.html#laptop" class="know-more-btn">Know More</a>
+            </div>
+            <div class="product">
+                <img src="/BCSE203E/Images/smartph.png" alt="Mobile" />
+                <!-- Add this line -->
+                <h3>Mobile</h3>
+                <p>Price Range : &#8377;10000 - &#8377;100000</p>
+                <a href="home.html#mobile" class="know-more-btn">Know More</a>
+            </div>
+        </div>
+    </section>
+    <div id="contact"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>TechHeaven</h3>
+                    <p>
+                        Stay up-to-date with the latest technology news and product
+                        releases by following us on social media. Thank you for choosing
+                        TechHeaven.
+                    </p>
+                </div>
+                <div class="footer-links" id="product_links">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="home.html#laptop">Personal Computer</a></li>
+                        <li><a href="home.html#mobile">Mobile</a></li>
+                        <li><a href="home.html#televisions">Smart Home Devices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="home.html">Store</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Need Help?</h3>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy; 2024 TechHeaven. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="Index.js"></script>
+</body>
+
+</html>

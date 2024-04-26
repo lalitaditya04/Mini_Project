@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #444;
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+/* Main Registration Form Styles */
+.registration-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.registration-form .container {
+    width: 600px;
+}
+
+.registration-form h1 {
+    color: #ff5733; /* Orange Red */
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.form-group input[type="date"] {
+    padding: 10px 8px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff5733; /* Orange Red */
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #ff884d; /* Teal */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #444;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.radio-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.radio-buttons input[type="radio"] {
+    display: none; /* Hide the actual radio buttons */
+}
+
+.radio-buttons label {
+    color: #fff;
+    margin:10px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.radio-buttons label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+
+.radio-buttons input[type="radio"]:checked+label::before {
+    background-color: #ff5733; /* Orange Red */
+}
+
+.radio-buttons label:hover::before {
+    border-color: #ff5733; /* Orange Red */
+}
+
+.form-group input[type="file"] {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  

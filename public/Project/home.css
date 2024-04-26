@@ -1,0 +1,165 @@
+
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f0f0f0;
+color: #333;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header {
+background-color: #333;
+color: #f0f0f0;
+padding: 10px 0;
+width: 100%;
+text-align: center;
+}
+
+#sdbar {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+}
+
+#sdbar:hover {
+    color: rgb(243, 116, 70);
+}
+
+/* Sidebar Styles */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a39d9d;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f27878;
+}
+
+
+h1{
+color: white;
+}
+
+h2{
+color: #444;
+}
+
+h1 span {
+color: orangered;
+font-style: italic;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+ul li {
+background-color: #ddd;
+margin: 5px 0;
+padding: 10px;
+width: 200px;
+text-align: center;
+}
+
+#logo {
+width: 300px;
+position: relative;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 1px solid #ddd;
+padding: 15px;
+text-align: left;
+}
+
+a {
+color: #008CBA;
+text-decoration: none;
+}
+
+a:hover {
+color: orangered;
+}
+
+#imagename {
+font-size:x-large;
+text-align: center;
+font-weight: bold ;
+}
+
+footer{
+width: 100%;
+background-color: #333;
+color: #f0f0f0;
+padding: 20px 0;
+text-align:center;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(255, 110, 57);
+}
+
+a {
+    color: rgb(255, 110, 57);
+    text-decoration:wavy;
+}
+
+a:hover {
+    color: rgb(4, 160, 160);
+}
+
+@keyframes animate-font {
+    0% { font-size: 55px; color: rgb(102, 91, 91);}
+    50% { font-size: 70px; color: orangered;}
+    100% { font-size: 55px; color: rgb(70, 70, 70);} /* Changed to a shade of grey */
+}
+
+
+#coming_soon {  
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    animation: animate-font 3s ease-in-out infinite;
+    
+}
